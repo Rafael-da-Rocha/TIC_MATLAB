@@ -5,10 +5,8 @@ anterior = 1;
 for i = 1:length(p)
     x = x +p(i);
     if x > y
-        H = anterior;
+        H = i;
         return
-    else
-        anterior = i;
     end
 end
 end
